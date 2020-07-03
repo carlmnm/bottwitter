@@ -1,4 +1,5 @@
-```import tweepy
+```
+import tweepy
 import time
 
 auth = tweepy.OAuthHandler('j3xjpuDi950EsotjY9L4PKrWE','skSp7GcQXgtLiu90mddumiqHiW2wjTGUlgdXgWwcWEsNl8iQCO')
@@ -19,4 +20,5 @@ for tweet in tweepy.Cursor(api.search, search).items(numtwt):
     except tweepy.TweepError as e:
         print(e.reason)
     except StopIteration:
-      break```
+      break
+      ```
